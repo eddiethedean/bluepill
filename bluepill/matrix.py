@@ -11,4 +11,8 @@ class Matrix:
 
 
 def rows_from_columns(columns: Sequence[Column]) -> List[Row]:
+    """
+    Using the Values objects from the columns, create a list of Rows.
+    This allows us to access the same values in the rows as we do in the columns.
+    """
     ...
